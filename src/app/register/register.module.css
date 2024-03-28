@@ -1,0 +1,131 @@
+.circle {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  background-color: #0c113d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  overflow: hidden;
+}
+.circle img {
+  transform: translateX(-4rem);
+}
+
+.finger2 {
+  position: absolute;
+  top: 90px;
+  transform: translateX(69.5rem);
+}
+
+.bioVault {
+  position: absolute;
+  z-index: 1;
+  top: 250px;
+  left: 281px;
+  font-style: normal;
+  font-family: "DM Serif Display", serif;
+  font-weight: bold;
+  font-size: 170px;
+  color: #fffcfc;
+  letter-spacing: -5px;
+}
+.litalics {
+  font-style: italic;
+  font-family: "DM Serif Display", serif;
+  font-weight: bold;
+  color: #000000;
+}
+.iitalics {
+  font-style: italic;
+  font-family: "DM Serif Display", serif;
+  font-weight: bold;
+  color: #fffcfc;
+}
+.letteru {
+  color: #000000;
+}
+.blackText {
+  color: #000000;
+}
+
+.roundrect {
+  position: absolute;
+  top: 450px;
+  left: 650px;
+  width: 328px;
+  height: 62px;
+  border-radius: 60px;
+  display: flex;
+  border: 1px solid #787c9a; /* Set border color and width */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.reg {
+  position: absolute;
+  z-index: 1;
+  top: 7px;
+  left: 55px;
+  font-style: normal;
+  font-family: "DM Mono", monospace;
+  font-size: 18px;
+  color: #000000;
+  font-weight: 500;
+  letter-spacing: 4px;
+  text-align: left;
+}
+
+.login {
+  position: absolute;
+  z-index: 2;
+  top: 17px;
+  left: 1270px;
+  font-style: normal;
+  font-family: "DM Mono", monospace;
+  font-size: 18px;
+  color: #000000;
+  font-weight: 500;
+  letter-spacing: 4px;
+  text-align: left;
+  background: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.regcircle {
+  position: absolute;
+  top: 3.3px;
+  left: 268px;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  z-index: 3;
+  background-color: #ea463b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  /* outline: none;
+  border: none; */
+  cursor: pointer;
+}
+
+.roundrect img {
+  position: absolute;
+  top: 5px;
+  left: 11px;
+}
+
+.login img {
+  position: absolute;
+  top: -7px;
+  left: -11px;
+  z-index: -1;
+}

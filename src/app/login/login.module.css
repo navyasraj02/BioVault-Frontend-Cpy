@@ -1,0 +1,191 @@
+
+.bioVault {
+    position: absolute;
+    z-index: 1;
+    top: 28px;
+    left: 65px;
+    font-style: normal;
+    font-family: "DM Serif Display", serif;
+    font-weight: bold;
+    font-size: 28px;
+    color: #615B64;
+    letter-spacing: -1px;
+  }
+  .litalics {
+    font-style: italic;
+    font-family: "DM Serif Display", serif;
+    font-weight: bold;
+    color: #120F91;
+  }
+  .iitalics {
+    font-style: italic;
+    font-family: "DM Serif Display", serif;
+    font-weight: bold;
+    color: #615B64;
+  }
+  .letteru {
+    color: #120F91;
+  }
+  .blackText {
+    color: #120F91;
+  }
+  .cufinger{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+  }
+
+  .rect{
+    position: absolute;
+    top: 80px;
+    left: 460px;
+    height: 500px;
+    width: 440px;
+    overflow: hidden;
+    border: 0.5px solid;
+    border-radius: 24px;
+    background-color: #f7f7f1;
+    border-color: #c2c5be;
+    z-index: 2;
+  }
+  .login{
+    position: absolute;
+    z-index: 2;
+    top: 45px;
+    left: 187px;
+    font-style:italic; 
+    font-family: "DM Mono", monospace;  font-size: 22px;
+    color: #39207F;
+    font-weight: 600;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .outcircle1{
+    position: absolute;
+    top: -10px;
+    left: 670px;
+    width: 300px; 
+    height: 300px; 
+    border-radius: 50%;
+    background-color: #DC8A5B;
+    filter: blur(50px);
+    z-index: -1;
+  }
+  
+  .outcircle2{
+      position: absolute;
+      top: 450px;
+      left: 350px;
+      width: 150px; 
+      height: 150px; 
+      border-radius: 50%;
+      background-color: #9596AD;
+      filter: blur(50px);
+      z-index: -1;
+    }
+  
+    .outcircle3{
+      position: absolute;
+      top: 480px;
+      left: 1200px;
+      width: 220px; 
+      height: 220px; 
+      border-radius: 50%;
+      background-color: #DCD75B;
+      filter: blur(60px);
+    }
+    .box{
+      padding: 20px;
+      height: 0px;
+      width: 250px;
+      border: 1px solid;
+      border-radius: 14px;
+      border-color: #2B21A1;
+      margin-bottom: 37px;
+  
+    }
+    .boxcontainer{
+      position: absolute;
+      top: 110px;
+      left: 70px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      z-index: 1;
+    }
+    .submit{
+        position: absolute;
+        top: 285px;
+        left: 118px;
+        font-style:normal; 
+        font-family: "DM Mono", monospace;  font-size: 16px;
+        color: #0C1141;
+        font-weight: 100;
+        z-index: 1;
+    }
+    .submit img{
+        position: absolute;
+        top: -4px;
+        left: -15px;
+        z-index: -1;
+    }
+
+    .upload{
+        position: absolute;
+        top: 276px;
+        left: 170px;
+        z-index: 1;
+    }
+    
+    .enter{
+        position: absolute;
+        top: -24px;
+        left: 8px;
+        font-style:normal; 
+        display: flex;
+        flex-direction: column;
+        font-family: "DM Mono", monospace;  font-size: 17px;
+        color: #0C1141;
+        font-weight:500;
+    }
+    .entering{
+        margin-bottom: 60px;
+    
+    }      
+    .line{
+            position: absolute;
+            top: 440px;
+            left: 69px;
+            width: 300px;
+            height: 1px; 
+            background-color: rgba(12, 17, 65, 0.46);
+            margin-bottom: 80px;
+    }
+    .already{
+        position: absolute;
+        top: 457px;
+        left: 110px;
+        font-style:normal; 
+        font-family: "DM Mono", monospace;  font-size: 12px;
+        color: #6D6E7A;
+        font-weight:500;
+    }
+    .reg{
+        position: absolute;
+        top: 455px;
+        left: 240px;
+        font-style:italic; 
+        font-family: "DM Mono", monospace;  font-size: 14px;
+        color: #39207F;
+        font-weight:600;
+    }
+    .u2{
+        position: absolute;
+        top: 170px;
+        left: 1170px;
+    }
+    .u4{
+        position: absolute;
+        top: 400px;
+        left: 400px;
+    }
